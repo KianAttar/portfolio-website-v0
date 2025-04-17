@@ -1,0 +1,145 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "CarX - Car Rental",
+      "category": "Web App & API",
+      "imageName": "carx",
+      "website": "https://carx.hassan-attar.com",
+      "api": "https://carx.hassan-attar.com/api/v1/docs",
+      "github": "https://github.com/hassan-attar/CarX",
+      "date": "2024-07"
+    },
+    {
+      "id": 2,
+      "category": "Web App & API",
+      "title": "Tourify",
+      "imageName": "tourify",
+      "website": "https://tourify.hassan-attar.com",
+      "api": "https://documenter.getpostman.com/view/26563178/2s9Y5csKeB",
+      "github": "https://github.com/hassan-attar/tourify-API",
+      "date": "2023-01"
+    },
+    {
+      "id": 3,
+      "category": "Website",
+      "title": "Fitness Tracker",
+      "imageName": "fitness-tracker",
+      "website": "https://fitness-tracker.hassan-attar.com",
+      "github": "https://github.com/hassan-attar/Fitness-Tracker",
+      "date": "2022-05"
+    }
+  ],
+  "skillSets": [
+    {
+      "title": "Backend API and Services",
+      "iconName": "ri-braces-line",
+      "skills": [
+        { "name": "TypeScript", "imageName": "typescript", "tags": ["javascript"] },
+        { "name": "JavaScript", "imageName": "javascript", "tags": ["javascript"] },
+        { "name": "Node.js", "imageName": "nodejs", "tags": ["javascript"] },
+        { "name": "Socket.io", "imageName": "socket.io", "tags": [] },
+        { "name": "axios", "imageName": "axios", "tags": ["javascript"] },
+        { "name": "Python", "imageName": "python", "tags": ["python"] },
+        { "name": "GraphQL", "imageName": "graphql", "tags": ["javascript"] },
+        { "name": "Express.js", "imageName": "expressjs", "tags": ["javascript"] },
+        { "name": "FastAPI", "imageName": "fastapi", "tags": ["python"] },
+        { "name": "Pydantic", "imageName": "pydantic", "tags": ["python"] },
+        { "name": "zod", "imageName": "zod", "tags": ["javascript"] },
+        { "name": "Pytest", "imageName": "pytest", "tags": ["python"] },
+        { "name": "Jest", "imageName": "jest", "tags": ["javascript"] },
+        { "name": "Mocha", "imageName": "mocha", "tags": ["javascript"] },
+        { "name": "Passport.js", "imageName": "passportjs", "tags": ["javascript"] },
+        { "name": "oAuth2", "imageName": "oauth2", "tags": [] },
+        { "name": "JWT", "imageName": "jwt", "tags": [] },
+        { "name": "Pug", "imageName": "pug", "tags": [] },
+        { "name": "Swagger", "imageName": "swagger", "tags": [] },
+        { "name": "Postman", "imageName": "postman", "tags": [] },
+        { "name": "LangChain", "imageName": "langchain", "tags": ["ai"] },
+        { "name": "LangGraph", "imageName": "langgraph", "tags": ["ai"] },
+        { "name": "OpenAI API", "imageName": "openai", "tags": ["ai"] },
+        { "name": "Sentry", "imageName": "sentry", "tags": [] },
+        { "name": "JSON", "imageName": "json", "tags": [] },
+        { "name": "XML", "imageName": "xml", "tags": [] },
+        { "name": "OpenAPI", "imageName": "openapi", "tags": [] }
+      ]
+    },
+    {
+      "title": "Websites and Apps",
+      "iconName": "ri-code-s-slash-line",
+      "skills": [
+        { "name": "HTML", "imageName": "html", "tags": [] },
+        { "name": "CSS", "imageName": "css", "tags": [] },
+        { "name": "JavaScript", "imageName": "javascript", "tags": ["javascript"] },
+        { "name": "React", "imageName": "react-2", "tags": ["javascript"] },
+        { "name": "React Router", "imageName": "react-router", "tags": ["javascript"] },
+        { "name": "Redux", "imageName": "redux", "tags": [] },
+        { "name": "Next", "imageName": "nextjs", "tags": ["javascript"] },
+        { "name": "Framer Motion", "imageName": "framer-motion", "tags": ["javascript"] },
+        { "name": "jQuery", "imageName": "jquery", "tags": [] },
+        { "name": "Sass", "imageName": "sass", "tags": [] },
+        { "name": "Ant Design", "imageName": "ant-design", "tags": [] },
+        { "name": "Bootstrap", "imageName": "bootstrap", "tags": [] },
+        { "name": "Material UI", "imageName": "material-ui", "tags": [] },
+        { "name": "Tailwind CSS", "imageName": "tailwind-css", "tags": [] }
+      ]
+    },
+    {
+      "title": "DevOps",
+      "iconName": "ri-settings-5-line",
+      "skills": [
+        { "name": "git", "imageName": "git", "tags": [] },
+        { "name": "Nginx", "imageName": "nginx", "tags": [] },
+        { "name": "Docker", "imageName": "docker", "tags": [] },
+        { "name": "Docker Compose", "imageName": "docker-compose", "tags": [] },
+        { "name": "Kubernetes", "imageName": "kubernetes", "tags": [] },
+        { "name": "Azure", "imageName": "azure", "tags": [] },
+        { "name": "Azure App Services", "imageName": "azure-app-services", "tags": [] },
+        { "name": "Azure Functions", "imageName": "azure-functions", "tags": [] },
+        { "name": "Azure DevOps", "imageName": "azure-devops", "tags": [] },
+        { "name": "GitHub", "imageName": "github", "tags": [] },
+        { "name": "GitHub Actions", "imageName": "github-actions", "tags": [] },
+        { "name": "AWS", "imageName": "aws", "tags": [] },
+        { "name": "AWS EC2", "imageName": "aws-ec2", "tags": [] },
+        { "name": "AWS ECR", "imageName": "aws-ecr", "tags": [] },
+        { "name": "AWS ECS", "imageName": "aws-ecs", "tags": [] },
+        { "name": "AWS Lambda", "imageName": "aws-lambda", "tags": [] },
+        { "name": "Jira", "imageName": "jira", "tags": [] },
+        { "name": "Virtual Box", "imageName": "virtualbox", "tags": [] },
+        { "name": "YAML", "imageName": "yaml", "tags": [] },
+        { "name": "Cloudflare", "imageName": "cloudflare", "tags": [] },
+        { "name": "Google Cloud", "imageName": "google-cloud", "tags": [] },
+        { "name": "Heroku", "imageName": "heroku", "tags": [] }
+      ]
+    },
+    {
+      "title": "Databases & ORMs",
+      "iconName": "ri-database-2-line",
+      "skills": [
+        { "name": "Postgres", "imageName": "postgres", "tags": [] },
+        { "name": "MongoDB", "imageName": "mongodb", "tags": [] },
+        { "name": "Redis", "imageName": "redis", "tags": [] },
+        { "name": "MariaDB", "imageName": "mariadb", "tags": [] },
+        { "name": "SQLite", "imageName": "sqlite", "tags": [] },
+        { "name": "MySQL", "imageName": "mysql", "tags": [] },
+        { "name": "Pinecone", "imageName": "pinecone", "tags": ["ai"] },
+        { "name": "Sequelize", "imageName": "sequelize", "tags": [] },
+        { "name": "Mongoose", "imageName": "mongoose", "tags": [] }
+      ]
+    }
+  ],
+  "testimonials" : [
+    {
+      "id": 1,
+      "from": "Adnan Reza",
+      "role": "Instructor at Langara College",
+      "text": "Hassan was a standout student in two intermediate web development courses at Langara College, excelling in both the LAMP and MERN stacks. He demonstrated strong collaboration in group projects and excellent independent problem-solving skills. His insightful questions enriched the class and contributed to a positive learning environment."
+    },
+    {
+      "id": 2,
+      "from": "Deland Jessop",
+      "role": "Instructor at Langara College",
+      "text": "Hassan was a top student in the Spring 2024 Business Presentations class, earning the highest mark for his strong speaking skills, valuable class contributions, and helpful feedback to peers. He excelled at explaining complex ideas clearly to diverse audiences and delivered presentations that were both informative and engaging. Hassan was one of my best students."
+    }
+  ]
+}

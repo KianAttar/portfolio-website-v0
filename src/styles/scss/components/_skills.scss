@@ -1,0 +1,170 @@
+/*=============== SKILLS ===============*/
+.skills{
+    &__container{
+        row-gap: 3.5rem;
+    }
+    &__title{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        column-gap: .5rem;
+        font-size: var(--small-font-size);
+        font-weight: var(--font-semi-bold);
+        margin-bottom: 2.5rem;
+
+        & i{
+            font-size: 1rem;
+            font-weight: initial;
+        }
+    }
+    &__info,
+    &__group,
+    &__blob{
+        display: grid;
+    }
+    &__info{
+        grid-template-columns: repeat(4, 1fr);
+        gap: 2.5rem 0rem;
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        text-align: center;
+    }
+    &__blob{
+        transition: background .4s; /* for dark mode animation */
+        
+        & svg{
+            width: 40px;
+        }
+
+        width: 64px;
+        height: 80px;
+        background-color: var(--skill-container);
+        border-radius: 3rem;
+        place-items: center;
+        margin-bottom: 1rem;
+    }
+    &__name{
+        font-size: var(--small-font-size);
+        margin-bottom: .25rem;
+    }
+    &__subtitle{
+        font-size: var(--tiny-font-size);
+        color: var(--text-color-light);
+    }
+
+    &__more-items {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+
+        & ul {
+            width: 60px;
+            height: 60px;
+            display: grid;
+            overflow: hidden;
+            margin: 0;
+            list-style: none;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(2, 1fr);
+            gap: 7px;
+            padding: 15px;
+            background-color: var(--skill-container);
+            border-radius: 50px;
+        }
+
+        & li {
+            background: var(--title-color);
+            border-radius: 100%;
+        }
+        & ul.two {
+            & li:nth-child(1) {
+                grid-column: 1 / 2; /* Start from the first column */
+                grid-row: 1 / 2;    /* Start from the first row */
+            }
+            & li:nth-child(2) {
+                grid-column: 2 / 3; /* Start from the second column */
+                grid-row: 2 / 3;    /* Start from the second row */
+            }
+        }
+
+        & ul.three {
+            & li:nth-child(1) {
+                grid-column: 1 / -1; /* Span across both columns */
+                grid-row: 1 / 2;    /* Occupy the first row */
+                margin: 0 9px;
+            }
+            & li:nth-child(2) {
+                grid-column: 1 / 2; /* Start from the first column */
+                grid-row: 2 / 3;    /* Occupy the second row */
+            }
+            & li:nth-child(3) {
+                grid-column: 2 / 3; /* Start from the second column */
+                grid-row: 2 / 3;    /* Occupy the second row */
+            }
+        }
+    }
+    &__filters {
+        display: flex;
+        margin-bottom: 20px;
+        align-items: center;
+        justify-content: center;
+
+        & button:first-child { border-radius: 0.5em 0 0 0.5em; }
+        & button:last-child { border-radius: 0 0.5em 0.5em 0; }
+        & button {
+            border-radius: 0;
+            margin-left: 0;
+            margin-right: 1px;
+            display: inline-block;
+            padding: 0.5em 1.0em;
+            margin-bottom: 10px;
+            background: var(--container-color);
+            background-color: var(--container-color-darker);
+            border: none;
+            color: hsl(207, 4%, 16%);
+            font-family: sans-serif;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        & button.inactive {
+            opacity: 0.7;
+            color: var(--text-color-light);
+            background-color: var(--skill-container);
+        }
+
+        & button:hover {
+            background-color: var(--container-color-darker);
+            text-shadow: 0 1px hsla(0, 0%, 100%, 0.5);
+            color: #222;
+        }
+    }
+
+}
+
+/* Animation skills */
+.skills__blob:hover img{
+    animation: bounce-skills .6s;
+}
+
+@keyframes bounce-skills{
+    0% {
+        transform: translate(0);
+    }
+    20% {
+        transform: translateY(-6px);
+    }
+    40% {
+        transform: translateY(0);
+    }
+    60% {
+        transform: translateY(-3px);
+    }
+    80% {
+        transform: translateY(0);
+    }
+}
