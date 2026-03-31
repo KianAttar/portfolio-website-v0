@@ -1,8 +1,0 @@
-services:
-  server:
-    build: .
-    ports:
-      - "8000:3000"
-    environment:
-      MAILJET_API_KEY: ${MAILJET_API_KEY}
-      MAILJET_API_SECRET: ${MAILJET_API_SECRET}

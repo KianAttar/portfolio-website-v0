@@ -1,6 +1,6 @@
 # Portfolio Website (Deprecated)
 
-This repository contains an older version of my portfolio website. It is deprecated and kept for historical reference. The deployed archive is at https://portfolio-website-v0.pages.dev/. The current site is at https://kianattar.com.
+This repository contains an older version of my portfolio website. It is deprecated and kept for historical reference. The current site is at https://kianattar.com.
 
 # My Portfolio Website
 
@@ -20,7 +20,6 @@ You can access the website <a href="https://kianattar.com">here</a>.
 
 - **Component-Based Architecture:** Each section of the website is componentized, enabling seamless integration and easy maintenance. This modular approach makes it simple to update or expand individual sections without affecting the entire website.
 
-
 ## Using This Code for Your Portfolio
 
 Feel free to use the codebase of this portfolio website as a template for your own portfolio site. I encourage developers to learn from and build upon this project. However, I kindly request that you follow these guidelines:
@@ -28,17 +27,6 @@ Feel free to use the codebase of this portfolio website as a template for your o
 1. **Provide Attribution:** Please include a clear and visible reference to my name and my original website in your portfolio. You can include a footer or a dedicated section acknowledging the source of inspiration.
 
 2. **Reach Out:** I'd love to see how you've used and customized this code for your own portfolio. Feel free to send me an email at [hello@kianattar.com](mailto:hello@kianattar.com) to share your work or discuss any questions you may have.
-
-## Kian Attar Links
-
-- [YouTube](https://www.youtube.com/@KianCodes)
-- [Reddit](https://www.reddit.com/user/KianCodes/)
-- [Instagram](https://www.instagram.com/kiancode.dev)
-- [GitHub](https://github.com/KianAttar)
-- [LinkedIn](https://www.linkedin.com/in/kianattar/)
-- [Medium](https://medium.com/@kianattar)
-- [Buy Me a Coffee](https://buymeacoffee.com/kianattar)
-- [X](#)
 
 ## Cloudflare Pages
 
