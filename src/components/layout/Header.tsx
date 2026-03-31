@@ -4,8 +4,8 @@ import { useRouter } from "next/router";
 import NavItem from "@/components/layout/NavItem";
 import { createPortal } from "react-dom";
 import Image from "next/image";
-import lightHaLogo from "../../../public/img/ha-logo-light-no-background.svg";
-import darkHaLogo from "../../../public/img/ha-logo-dark-no-background.svg";
+import lightKaLogo from "../../../public/img/ka-logo-light-no-background.svg";
+import darkKaLogo from "../../../public/img/ka-logo-dark-no-background.svg";
 import {useTheme} from "@/components/context/ThemeContext";
 import Link from "next/link";
 
@@ -51,11 +51,13 @@ const Header = () => {
 
   const scrollToView = (sectionId: string) => {
     const sectionElement = document.getElementById(sectionId)!;
-    const headerHeight = document.querySelector("header")?.offsetHeight!;
+    const headerHeight = (document.querySelector("header") as HTMLElement | null)?.offsetHeight || 0;
+    const bannerHeight = (document.querySelector(".deprecated-banner") as HTMLElement | null)?.offsetHeight || 0;
     const targetScrollPosition =
       sectionElement.getBoundingClientRect().top +
       window.scrollY -
-      headerHeight;
+      headerHeight -
+      bannerHeight;
     setIsNavOpen(false);
     window.scrollTo({
       top: targetScrollPosition,
@@ -90,8 +92,8 @@ const Header = () => {
       <nav className="nav container">
         <a href="#" className="nav__logo">
           <Image
-            src={isDarkTheme ? darkHaLogo : lightHaLogo}
-            alt={"Hassan Attar logo"}
+            src={isDarkTheme ? darkKaLogo : lightKaLogo}
+            alt={"Kian Attar logo"}
             width={64}
             height={64}
             className="nav__logo-img"

@@ -34,7 +34,7 @@ export default function HomePage({ data }: { data: PortfolioData }) {
   return (
     <>
       <Head>
-        <title>Hassan Attar</title>
+        <title>Kian Attar</title>
         <meta
           name="description"
           content="I'm a Software Engineer with expertise in JavaScript, TypeScript, Java, C++, PHP, HTML, CSS, and various web development technologies. Explore my portfolio showcasing my projects, experience and services."
@@ -42,31 +42,31 @@ export default function HomePage({ data }: { data: PortfolioData }) {
 
         <meta
           name="keywords"
-          content="Hassan Attar, Hassan, Attar, HassanAttar, Hasan Attar, HasanAttar, Hasan, Developer, Software Developer, Web, Web Developer, Full-stack web developer, Software Engineer, Backend Engineer"
+          content="Kian Attar, Kian, Attar, KianAttar, Kiyan Attar, KiyanAttar, Kiyan, Developer, Software Developer, Web, Web Developer, Full-stack web developer, Software Engineer, Backend Engineer"
         />
-        <meta name="author" content="Hassan Attar" />
+        <meta name="author" content="Kian Attar" />
         <meta name="robots" content="index, follow" />
-        <meta property="og:title" content="Hassan Attar" />
+        <meta property="og:title" content="Kian Attar" />
         <meta
           property="og:description"
           content="I'm a Software Engineer with expertise in JavaScript, TypeScript, Java, C++, PHP, HTML, CSS, and various web development technologies. Explore my portfolio showcasing projects, experience and services."
         />
         <meta
           property="og:image"
-          content="https://hassan-attar.com/ha-logo.png"
+          content="https://kianattar.com/ka-logo.png"
         />
-        <meta property="og:url" content="https://hassan-attar.com" />
+        <meta property="og:url" content="https://kianattar.com" />
 
-        <meta property="twitter:title" content="Hassan Attar" />
+        <meta property="twitter:title" content="Kian Attar" />
         <meta
           property="twitter:description"
           content="I'm a Software Engineer with expertise in JavaScript, TypeScript, Java, C++, PHP, HTML, CSS, and various web development technologies. Explore my portfolio showcasing projects, experience and services."
         />
         <meta
           property="twitter:image"
-          content="https://hassan-attar.com/ha-logo.png"
+          content="https://kianattar.com/ka-logo.png"
         />
-        <meta property="twitter:url" content="https://hassan-attar.com" />
+        <meta property="twitter:url" content="https://kianattar.com" />
       </Head>
       <Home />
       <Skills skillSets={data.skillSets}/>

@@ -5,9 +5,7 @@
       "title": "CarX - Car Rental",
       "category": "Web App & API",
       "imageName": "carx",
-      "website": "https://carx.hassan-attar.com",
-      "api": "https://carx.hassan-attar.com/api/v1/docs",
-      "github": "https://github.com/hassan-attar/CarX",
+      "github": "https://github.com/kianattar/CarX",
       "date": "2024-07"
     },
     {
@@ -15,9 +13,8 @@
       "category": "Web App & API",
       "title": "Tourify",
       "imageName": "tourify",
-      "website": "https://tourify.hassan-attar.com",
       "api": "https://documenter.getpostman.com/view/26563178/2s9Y5csKeB",
-      "github": "https://github.com/hassan-attar/tourify-API",
+      "github": "https://github.com/kianattar/tourify-API",
       "date": "2023-01"
     },
     {
@@ -25,8 +22,7 @@
       "category": "Website",
       "title": "Fitness Tracker",
       "imageName": "fitness-tracker",
-      "website": "https://fitness-tracker.hassan-attar.com",
-      "github": "https://github.com/hassan-attar/Fitness-Tracker",
+      "github": "https://github.com/kianattar/Fitness-Tracker",
       "date": "2022-05"
     }
   ],
@@ -35,21 +31,37 @@
       "title": "Backend API and Services",
       "iconName": "ri-braces-line",
       "skills": [
-        { "name": "TypeScript", "imageName": "typescript", "tags": ["javascript"] },
-        { "name": "JavaScript", "imageName": "javascript", "tags": ["javascript"] },
+        {
+          "name": "TypeScript",
+          "imageName": "typescript",
+          "tags": ["javascript"]
+        },
+        {
+          "name": "JavaScript",
+          "imageName": "javascript",
+          "tags": ["javascript"]
+        },
         { "name": "Node.js", "imageName": "nodejs", "tags": ["javascript"] },
         { "name": "Socket.io", "imageName": "socket.io", "tags": [] },
         { "name": "axios", "imageName": "axios", "tags": ["javascript"] },
         { "name": "Python", "imageName": "python", "tags": ["python"] },
         { "name": "GraphQL", "imageName": "graphql", "tags": ["javascript"] },
-        { "name": "Express.js", "imageName": "expressjs", "tags": ["javascript"] },
+        {
+          "name": "Express.js",
+          "imageName": "expressjs",
+          "tags": ["javascript"]
+        },
         { "name": "FastAPI", "imageName": "fastapi", "tags": ["python"] },
         { "name": "Pydantic", "imageName": "pydantic", "tags": ["python"] },
         { "name": "zod", "imageName": "zod", "tags": ["javascript"] },
         { "name": "Pytest", "imageName": "pytest", "tags": ["python"] },
         { "name": "Jest", "imageName": "jest", "tags": ["javascript"] },
         { "name": "Mocha", "imageName": "mocha", "tags": ["javascript"] },
-        { "name": "Passport.js", "imageName": "passportjs", "tags": ["javascript"] },
+        {
+          "name": "Passport.js",
+          "imageName": "passportjs",
+          "tags": ["javascript"]
+        },
         { "name": "oAuth2", "imageName": "oauth2", "tags": [] },
         { "name": "JWT", "imageName": "jwt", "tags": [] },
         { "name": "Pug", "imageName": "pug", "tags": [] },
@@ -58,7 +70,6 @@
         { "name": "LangChain", "imageName": "langchain", "tags": ["ai"] },
         { "name": "LangGraph", "imageName": "langgraph", "tags": ["ai"] },
         { "name": "OpenAI API", "imageName": "openai", "tags": ["ai"] },
-        { "name": "Sentry", "imageName": "sentry", "tags": [] },
         { "name": "JSON", "imageName": "json", "tags": [] },
         { "name": "XML", "imageName": "xml", "tags": [] },
         { "name": "OpenAPI", "imageName": "openapi", "tags": [] }
@@ -70,12 +81,24 @@
       "skills": [
         { "name": "HTML", "imageName": "html", "tags": [] },
         { "name": "CSS", "imageName": "css", "tags": [] },
-        { "name": "JavaScript", "imageName": "javascript", "tags": ["javascript"] },
+        {
+          "name": "JavaScript",
+          "imageName": "javascript",
+          "tags": ["javascript"]
+        },
         { "name": "React", "imageName": "react-2", "tags": ["javascript"] },
-        { "name": "React Router", "imageName": "react-router", "tags": ["javascript"] },
+        {
+          "name": "React Router",
+          "imageName": "react-router",
+          "tags": ["javascript"]
+        },
         { "name": "Redux", "imageName": "redux", "tags": [] },
         { "name": "Next", "imageName": "nextjs", "tags": ["javascript"] },
-        { "name": "Framer Motion", "imageName": "framer-motion", "tags": ["javascript"] },
+        {
+          "name": "Framer Motion",
+          "imageName": "framer-motion",
+          "tags": ["javascript"]
+        },
         { "name": "jQuery", "imageName": "jquery", "tags": [] },
         { "name": "Sass", "imageName": "sass", "tags": [] },
         { "name": "Ant Design", "imageName": "ant-design", "tags": [] },
@@ -94,8 +117,16 @@
         { "name": "Docker Compose", "imageName": "docker-compose", "tags": [] },
         { "name": "Kubernetes", "imageName": "kubernetes", "tags": [] },
         { "name": "Azure", "imageName": "azure", "tags": [] },
-        { "name": "Azure App Services", "imageName": "azure-app-services", "tags": [] },
-        { "name": "Azure Functions", "imageName": "azure-functions", "tags": [] },
+        {
+          "name": "Azure App Services",
+          "imageName": "azure-app-services",
+          "tags": []
+        },
+        {
+          "name": "Azure Functions",
+          "imageName": "azure-functions",
+          "tags": []
+        },
         { "name": "Azure DevOps", "imageName": "azure-devops", "tags": [] },
         { "name": "GitHub", "imageName": "github", "tags": [] },
         { "name": "GitHub Actions", "imageName": "github-actions", "tags": [] },
@@ -128,18 +159,18 @@
       ]
     }
   ],
-  "testimonials" : [
+  "testimonials": [
     {
       "id": 1,
       "from": "Adnan Reza",
       "role": "Instructor at Langara College",
-      "text": "Hassan was a standout student in two intermediate web development courses at Langara College, excelling in both the LAMP and MERN stacks. He demonstrated strong collaboration in group projects and excellent independent problem-solving skills. His insightful questions enriched the class and contributed to a positive learning environment."
+      "text": "Kian was a standout student in two intermediate web development courses at Langara College, excelling in both the LAMP and MERN stacks. He demonstrated strong collaboration in group projects and excellent independent problem-solving skills. His insightful questions enriched the class and contributed to a positive learning environment."
     },
     {
       "id": 2,
       "from": "Deland Jessop",
       "role": "Instructor at Langara College",
-      "text": "Hassan was a top student in the Spring 2024 Business Presentations class, earning the highest mark for his strong speaking skills, valuable class contributions, and helpful feedback to peers. He excelled at explaining complex ideas clearly to diverse audiences and delivered presentations that were both informative and engaging. Hassan was one of my best students."
+      "text": "Kian was a top student in the Spring 2024 Business Presentations class, earning the highest mark for his strong speaking skills, valuable class contributions, and helpful feedback to peers. He excelled at explaining complex ideas clearly to diverse audiences and delivered presentations that were both informative and engaging. Kian was one of my best students."
     }
   ]
 }

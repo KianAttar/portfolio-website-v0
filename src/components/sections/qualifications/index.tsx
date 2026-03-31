@@ -46,7 +46,7 @@ const Qualification = () => {
               Software Developer
             </h3>
             <span className="qualification__country">Freelance &mdash; Canada/USA</span>
-            <span className="qualification__year">2023 - Present</span>
+            <span className="qualification__year">2024 - Present</span>
           </div>
 
           <div>
@@ -55,14 +55,6 @@ const Qualification = () => {
             </h3>
             <span className="qualification__country">Langara College &mdash; Canada</span>
             <span className="qualification__year">2024 - Present</span>
-          </div>
-
-          <div>
-            <h3 className="qualification__name">
-              IT Admin
-            </h3>
-            <span className="qualification__country">Abniye Sazan - Iran</span>
-            <span className="qualification__year">2017 - 2022</span>
           </div>
         </div>
       </div>

@@ -1,15 +1,17 @@
 {
-  "name": "hassan-attar.com",
+  "name": "kianattar.com",
   "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "pages:build": "next build",
+    "pages:preview": "npx wrangler pages dev out",
+    "pages:deploy": "npx wrangler pages deploy out"
   },
   "dependencies": {
-    "@sentry/nextjs": "^8.26.0",
     "@types/node": "20.5.7",
     "@types/react": "18.2.21",
     "@types/react-dom": "18.2.7",
@@ -17,13 +19,10 @@
     "eslint": "8.48.0",
     "eslint-config-next": "13.4.19",
     "framer-motion": "^11.3.28",
-    "joi": "^17.13.3",
     "lodash.debounce": "^4.0.8",
     "next": "^14.2.5",
-    "node-mailjet": "^6.0.4",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-toastify": "^10.0.5",
     "sass": "^1.77.8",
     "scrollreveal": "^4.0.9",
     "sharp": "^0.32.6",
@@ -33,5 +32,6 @@
   "devDependencies": {
     "@types/lodash.debounce": "^4.0.9",
     "gulp-svg-sprite": "^2.0.3"
-  }
+  },
+  "packageManager": "pnpm@10.11.0+sha512.6540583f41cc5f628eb3d9773ecee802f4f9ef9923cc45b69890fb47991d4b092964694ec3a4f738a420c918a333062c8b925d312f42e4f0c263eb603551f977"
 }

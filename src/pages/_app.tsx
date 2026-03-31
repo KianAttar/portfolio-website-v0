@@ -24,14 +24,23 @@ export default function App({
         <link rel="manifest" href="/site.webmanifest"/>
         <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#000000"/>
         <link rel="shortcut icon" href="/favicon.ico"/>
-        <meta name="apple-mobile-web-app-title" content="Hassan's Portfolio"/>
-        <meta name="application-name" content="Hassan's Portfolio"/>
+        <meta name="apple-mobile-web-app-title" content="Kian's Portfolio"/>
+        <meta name="application-name" content="Kian's Portfolio"/>
         <meta name="msapplication-TileColor" content="#ffffff"/>
         <meta name="msapplication-config" content="/browserconfig.xml"/>
         <meta name="theme-color" content="#ffffff"/>
+        <meta name="robots" content="noindex, nofollow"/>
+        <link rel="canonical" href="https://kianattar.com"/>
       </Head>
       <NavProvider>
         <ThemeProvider>
+          <div className="deprecated-banner">
+            This is an old portfolio website and is deprecated. Visit the new site at{"\u00A0"}
+            <a href="https://kianattar.com" target="_blank" rel="noreferrer">
+              kianattar.com
+            </a>
+            .
+          </div>
           <Header/>
           <main className="main">
             <Component {...pageProps} />

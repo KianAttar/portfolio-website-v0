@@ -113,6 +113,11 @@
                 font-weight: initial;
             }
         }
+
+        & .contact__button--disabled{
+            cursor: not-allowed;
+            opacity: 0.5;
+        }
     }
     &__message{
         font-size: var(--small-font-size);

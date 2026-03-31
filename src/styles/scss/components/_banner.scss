@@ -1,0 +1,25 @@
+:root{
+    --banner-height: 4.5rem;
+}
+
+.deprecated-banner{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background: linear-gradient(90deg, hsl(16, 96%, 50%), hsl(12, 88%, 58%));
+    color: #fff;
+    text-align: center;
+    height: var(--banner-height);
+    padding: 0 1.5rem;
+    font-size: var(--h3-font-size);
+    line-height: 1.4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.deprecated-banner a{
+    color: #fff;
+    text-decoration: underline;
+    font-weight: var(--font-semi-bold);
+}
